@@ -6,6 +6,6 @@ getButton.addEventListener('click', function(){
   getNameDisplay = document.querySelector(".displayName");
   getAgeDisplay = document.querySelector(".displayAge");
 
-  getNameDisplay.innerHTML += getUserName.value;
-  getAgeDisplay.innerHTML += getUserAge.value;
+  getNameDisplay.innerHTML = getUserName.value;
+  getAgeDisplay.innerHTML = getUserAge.value;
 })
